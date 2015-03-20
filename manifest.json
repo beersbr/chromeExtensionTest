@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Giantsource Runner",
+  "description": "AHH DAMMIT",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+  "background": {
+    "persistent": false,
+    "scripts": ["runner.js"]
+  },
+
+  "permissions": [
+    "activeTab",
+    "background",
+    "nativeMessaging"
+  ]
+}
