@@ -1,0 +1,9 @@
+{
+  "name": "com.giantsource.runner",
+  "description": "A runner for an app",
+  "path": "/Users/brettbeers/projects/giantsource/chromeExtensionTest/runner",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://pnemeiccmmncckfmkgmpdkmdofnkohfi/"
+  ]
+}
