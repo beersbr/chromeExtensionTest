@@ -13,11 +13,11 @@ int main(int argc, char *argv[])
 	std::cout.write((char *)&str_sz, 4);
 	std::cout.write(str.c_str(), str_sz);
 
-	// if(execl("/usr/bin/open", "open", "/Applications/App Store.app/", NULL) < 0)
-	// {
-	// 	std::cout << "ERROR: " << errno << std::endl;
-	// 	return 1;
-	// }
+	if(execl("/usr/bin/open", "open", "/Applications/App Store.app/", NULL) < 0)
+	{
+		std::cout << "ERROR: " << errno << std::endl;
+		return 1;
+	}
 
 	return 0;
 }
