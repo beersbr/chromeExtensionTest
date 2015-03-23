@@ -1,0 +1,1 @@
+g++ runner.cpp -o runner -std=c++0x

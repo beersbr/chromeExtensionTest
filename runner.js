@@ -8,12 +8,10 @@ chrome.browserAction.onClicked.addListener(function(tab){
 
 	port.onMessage.addListener(function(msg){
 		console.log("MSG: ", msg);
-		debugger;
+		port.postMessage({text: "App Store" });
 	});
 
 	port.onDisconnect.addListener(function(){
 		console.log("DISCONNECTED");
 	});
-
-	port.postMessage({text: "hello world!" });
 });

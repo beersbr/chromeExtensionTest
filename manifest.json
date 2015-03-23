@@ -1,8 +1,7 @@
 {
   "manifest_version": 2,
-
-  "name": "Giantsource Runner",
-  "description": "AHH DAMMIT",
+  "name": "Giantsource Application Runner",
+  "description": "Giantsource provided application proxy",
   "version": "1.0",
 
   "browser_action": {

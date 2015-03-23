@@ -1,0 +1,9 @@
+{
+  "name": "com.giantsource.runner",
+  "description": "A, Giantsource provided, runner proxy for chrome",
+  "path": "~/Library/Application Support/Google/Chrome/NativeMessagingHosts/runner",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://pnemeiccmmncckfmkgmpdkmdofnkohfi/"
+  ]
+}
